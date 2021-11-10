@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+.container {
+  width: 100%;
+  /* background-image: url('../images/bg_image.jpg'); */
+  background-image: url("https://unsplash.it/1366/768");
+  /* opacity: .8; */
+  overflow: hidden;
+}
+.form {
+  max-width: 750px;
+  margin: 3rem auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.699);
+  padding: 5rem;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px 0 #6d6d6d;
+}
+.form-heading {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #333333;
+  margin-bottom: 80px;
+  line-height: 1.2;
+  font-family: "Roboto Mono", monospace;
+}
+.form-heading-change-color {
+  color: rgba(213, 0, 125, 0.8);
+}
+.form-input1 input,
+.form-input2 h1 {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem;
+  padding-left: 0;
+  margin-bottom: 33px;
+}
+input {
+  width: 100%;
+  background-color: transparent;
+  font-size: 1rem;
+}
+.result {
+  font-size: 2rem;
+  text-align: left;
+  color: transparent;
+}
+.form .btn {
+  margin-top: 3rem;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  background: linear-gradient(
+    45deg,
+    rgba(213, 0, 125, 0.8),
+    rgba(229, 57, 53, 0.8)
+  );
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form .btn:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
